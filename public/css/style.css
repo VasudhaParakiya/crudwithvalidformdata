@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.text-center {
+  text-align: center;
+}
+.user-data {
+  max-width: 800px;
+  margin: auto;
+}
+.user-table {
+  width: 100%;
+  font-size: 1.8rem;
+  border: 1px solid #706f6f;
+}
+tr:nth-child(even) {
+  background-color: #d7e5fa;
+}
+th {
+  font-size: 2rem;
+  background-color: #d7e5fa;
+}
+td {
+  font-size: 1.8rem;
+}
+th,
+td {
+  padding: 6px 0;
+}
+.icon {
+  background-color: #0d6efd;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 5px;
+  display: inline-block;
+}
+.icon:hover {
+  background-color: #0656ce;
+}
+.form {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user-form {
+  max-width: 800px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border: 1px solid #706f6f;
+  padding: 3rem;
+  font-size: 1.6rem;
+}
+.user-form input[type=text] {
+ 
+  width: 100%;
+  
+}
+.user-form input[type=password]{
+ 
+  width: 100%;
+  
+}
+.user-form input[type=radio] {
+    font-size: 1.8rem;
+    margin:0 1rem;
+}
+.showPass{
+    position: absolute;
+    top:90%;
+    right:5%;
+    transform: translate(-5%,-90%);
+    -webkit-transform: translate(-5%,-90%);
+    -moz-transform: translate(-5%,-90%);
+    -ms-transform: translate(-5%,-90%);
+    -o-transform: translate(-5%,-90%);
+}
+
+.user-form input[type=checkbox]{
+    font-size: 1.8rem;
+    margin:0 1rem;
+}
+.city{
+   width: 83%;
+   margin: 0 0 0 1rem;
+}
+.user-form input[type=number]{
+    font-size: 1.8rem;
+    width: 100%;
+}
+.user-form input[type=tel]{
+    font-size: 1.8rem;
+    width: 100%;
+}
+.user-form input[type=date]{
+    width: 100%;
+}
